@@ -1,0 +1,9 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Comic}{2}{0}{1}
+\beamer@sectionintoc {2}{Problem statement}{3}{0}{2}
+\beamer@sectionintoc {3}{Table of contents}{4}{0}{3}
+\beamer@sectionintoc {4}{Pragmatics and Game Theory}{5}{1}{4}
+\beamer@sectionintoc {5}{RSA - Model}{8}{1}{5}
+\beamer@sectionintoc {6}{Simulation}{14}{1}{6}
+\beamer@sectionintoc {7}{Simulation Results}{17}{1}{7}
+\beamer@sectionintoc {8}{Discussion}{23}{1}{8}

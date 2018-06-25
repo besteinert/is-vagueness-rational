@@ -1,0 +1,526 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Barker%
+}{%
+Barker%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+barker2002dynamics}
+\APACinsertmetastar {%
+barker2002dynamics}%
+\begin{APACrefauthors}%
+Barker, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The dynamics of vagueness} {The dynamics of
+  vagueness}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistics and Philosophy}{25}{1}{1--36}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Frank%
+\ \BBA {} Goodman%
+}{%
+Frank%
+\ \BBA {} Goodman%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+frank2012predicting}
+\APACinsertmetastar {%
+frank2012predicting}%
+\begin{APACrefauthors}%
+Frank, M\BPBI C.%
+\BCBT {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Predicting pragmatic reasoning in language games}
+  {Predicting pragmatic reasoning in language games}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{336}{6084}{998--998}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Franke%
+, J{\"a}ger%
+\BCBL {}\ \BBA {} Van~Rooij%
+}{%
+Franke%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+franke2010vagueness}
+\APACinsertmetastar {%
+franke2010vagueness}%
+\begin{APACrefauthors}%
+Franke, M.%
+, J{\"a}ger, G.%
+\BCBL {}\ \BBA {} Van~Rooij, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vagueness, signaling and bounded rationality}
+  {Vagueness, signaling and bounded rationality}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {JSAI international symposium on artificial intelligence}
+  {Jsai international symposium on artificial intelligence}\ (\BPGS\ 45--59).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Franke%
+\ \BBA {} Wagner%
+}{%
+Franke%
+\ \BBA {} Wagner%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+franke2014game}
+\APACinsertmetastar {%
+franke2014game}%
+\begin{APACrefauthors}%
+Franke, M.%
+\BCBT {}\ \BBA {} Wagner, E\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Game theory and the evolution of meaning} {Game theory
+  and the evolution of meaning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Language and Linguistics Compass}{8}{9}{359--372}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodman%
+\ \BBA {} Stuhlm{\"u}ller%
+}{%
+Goodman%
+\ \BBA {} Stuhlm{\"u}ller%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+goodman2013knowledge}
+\APACinsertmetastar {%
+goodman2013knowledge}%
+\begin{APACrefauthors}%
+Goodman, N\BPBI D.%
+\BCBT {}\ \BBA {} Stuhlm{\"u}ller, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Knowledge and implicature: Modeling language
+  understanding as social cognition} {Knowledge and implicature: Modeling
+  language understanding as social cognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Topics in cognitive science}{5}{1}{173--184}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodman%
+\ \BBA {} Stuhlm\"{u}ller%
+}{%
+Goodman%
+\ \BBA {} Stuhlm\"{u}ller%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+dippl}
+\APACinsertmetastar {%
+dippl}%
+\begin{APACrefauthors}%
+Goodman, N\BPBI D.%
+\BCBT {}\ \BBA {} Stuhlm\"{u}ller, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {{The Design and Implementation of Probabilistic Programming
+  Languages}.} {{The Design and Implementation of Probabilistic Programming
+  Languages}.}
+\newblock
+\APAChowpublished {\url{http://dippl.org}}.
+\newblock
+\APACrefnote{Accessed: 2018-2-17}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodman%
+\ \BBA {} Tenenbaum%
+}{%
+Goodman%
+\ \BBA {} Tenenbaum%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+probmods2}
+\APACinsertmetastar {%
+probmods2}%
+\begin{APACrefauthors}%
+Goodman, N\BPBI D.%
+\BCBT {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+\APACrefbtitle {{Probabilistic Models of Cognition}} {{Probabilistic Models of
+  Cognition}}\ (\PrintOrdinal{Second}\ \BEd).
+\newblock
+\APAChowpublished {\url{http://probmods.org/v2}}.
+\newblock
+\APACrefnote{Accessed: 2018-2-17}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J{\"a}ger%
+}{%
+J{\"a}ger%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+jager2007evolution}
+\APACinsertmetastar {%
+jager2007evolution}%
+\begin{APACrefauthors}%
+J{\"a}ger, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The evolution of convex categories} {The evolution of
+  convex categories}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Linguistics and Philosophy}{30}{5}{551--564}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kao%
+, Wu%
+, Bergen%
+\BCBL {}\ \BBA {} Goodman%
+}{%
+Kao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+kao2014nonliteral}
+\APACinsertmetastar {%
+kao2014nonliteral}%
+\begin{APACrefauthors}%
+Kao, J\BPBI T.%
+, Wu, J\BPBI Y.%
+, Bergen, L.%
+\BCBL {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Nonliteral understanding of number words} {Nonliteral
+  understanding of number words}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{111}{33}{12002--12007}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lassiter%
+\ \BBA {} Goodman%
+}{%
+Lassiter%
+\ \BBA {} Goodman%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+lassiter2013context}
+\APACinsertmetastar {%
+lassiter2013context}%
+\begin{APACrefauthors}%
+Lassiter, D.%
+\BCBT {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Context, scale structure, and statistics in the
+  interpretation of positive-form adjectives} {Context, scale structure, and
+  statistics in the interpretation of positive-form adjectives}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Semantics and linguistic theory} {Semantics and
+  linguistic theory}\ (\BVOL~23, \BPGS\ 587--610).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lassiter%
+\ \BBA {} Goodman%
+}{%
+Lassiter%
+\ \BBA {} Goodman%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+lassiter2017adjectival}
+\APACinsertmetastar {%
+lassiter2017adjectival}%
+\begin{APACrefauthors}%
+Lassiter, D.%
+\BCBT {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Adjectival vagueness in a Bayesian model of
+  interpretation} {Adjectival vagueness in a bayesian model of
+  interpretation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Synthese}{194}{10}{3801--3836}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lewis%
+}{%
+Lewis%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+lewis2008convention}
+\APACinsertmetastar {%
+lewis2008convention}%
+\begin{APACrefauthors}%
+Lewis, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {Convention: A philosophical study} {Convention: A philosophical
+  study}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lipman%
+}{%
+Lipman%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+lipman2009language}
+\APACinsertmetastar {%
+lipman2009language}%
+\begin{APACrefauthors}%
+Lipman, B\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Why is language vague?} {Why is language vague?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Boston University}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Monroe%
+\ \BBA {} Potts%
+}{%
+Monroe%
+\ \BBA {} Potts%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+monroe2015learning}
+\APACinsertmetastar {%
+monroe2015learning}%
+\begin{APACrefauthors}%
+Monroe, W.%
+\BCBT {}\ \BBA {} Potts, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Learning in the rational speech acts model} {Learning in
+  the rational speech acts model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv preprint arXiv:1510.06807}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+\ \BBA {} Price%
+}{%
+Smith%
+\ \BBA {} Price%
+}{%
+{\protect \APACyear {1973}}%
+}]{%
+smith1973logic}
+\APACinsertmetastar {%
+smith1973logic}%
+\begin{APACrefauthors}%
+Smith, J\BPBI M.%
+\BCBT {}\ \BBA {} Price, G\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1973}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The logic of animal conflict} {The logic of animal
+  conflict}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{246}{5427}{15}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Steels%
+}{%
+Steels%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+steels2006experiments}
+\APACinsertmetastar {%
+steels2006experiments}%
+\begin{APACrefauthors}%
+Steels, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How to do experiments in artificial language evolution
+  and why} {How to do experiments in artificial language evolution and
+  why}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {The Evolution Of Language} {The evolution of language}\
+  (\BPGS\ 323--332).
+\newblock
+\APACaddressPublisher{}{World Scientific}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tessler%
+\ \BBA {} Franke%
+}{%
+Tessler%
+\ \BBA {} Franke%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+tesslernot}
+\APACinsertmetastar {%
+tesslernot}%
+\begin{APACrefauthors}%
+Tessler, M\BPBI H.%
+\BCBT {}\ \BBA {} Franke, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Not unreasonable: Carving vague dimensions with
+  contraries and contradictions} {Not unreasonable: Carving vague dimensions
+  with contraries and contradictions}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tessler%
+, Lopez-Brau%
+\BCBL {}\ \BBA {} Goodman%
+}{%
+Tessler%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+tessler2017warm}
+\APACinsertmetastar {%
+tessler2017warm}%
+\begin{APACrefauthors}%
+Tessler, M\BPBI H.%
+, Lopez-Brau, M.%
+\BCBL {}\ \BBA {} Goodman, N\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Warm (for winter): Comparison class understanding in
+  vague language} {Warm (for winter): Comparison class understanding in vague
+  language}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of CogSci.} {Proceedings of cogsci.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thomas%
+}{%
+Thomas%
+}{%
+{\protect \APACyear {1985}}%
+}]{%
+thomas1985evolutionarily}
+\APACinsertmetastar {%
+thomas1985evolutionarily}%
+\begin{APACrefauthors}%
+Thomas, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1985}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On evolutionarily stable sets} {On evolutionarily stable
+  sets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Mathematical Biology}{22}{1}{105--115}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Van~Rooij%
+}{%
+Van~Rooij%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+van2011vagueness}
+\APACinsertmetastar {%
+van2011vagueness}%
+\begin{APACrefauthors}%
+Van~Rooij, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vagueness and linguistics} {Vagueness and
+  linguistics}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Vagueness: A guide} {Vagueness: A guide}\ (\BPGS\
+  123--170).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,0 +1,24 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Pragmatics and vagueness}{}% 2
+\BOOKMARK [1][-]{section.2.1}{The field of pragmatics}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Evolutionary Game Theory}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Vagueness in language use}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Computer simulations for language evolution}{chapter.2}% 6
+\BOOKMARK [0][-]{chapter.3}{RSA - Model}{}% 7
+\BOOKMARK [1][-]{section.3.1}{Main idea of RSA and Bayes' Theorem}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{Inference strategies in RSA}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{Agent types}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.4}{Literal listener L0}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.5}{Informative Speaker S1}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.6}{Pragmatic listener L1}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Simulation}{}% 14
+\BOOKMARK [1][-]{section.4.1}{General assumptions and procedure}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.2}{Vague meaning in the lexicon}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.3}{World prior}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.4}{Goal of simulation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.5}{Expected Utility}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.6}{Simulation set-up}{chapter.4}% 20
+\BOOKMARK [0][-]{chapter.5}{Simulation Results}{}% 21
+\BOOKMARK [1][-]{section.5.1}{EU results}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.2}{ESS analysis}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 24

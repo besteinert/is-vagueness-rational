@@ -1,0 +1,35 @@
+\documentclass[a4paper,cleardoubleempty,BCOR1cm]{scrbook}
+\input{header}
+
+\title{Thesis}
+\author{Benjamin Steinert \thanks{e-mail: benjamin.steinert@student.uni-tuebingen.de}}
+\date{\today}
+\begin{document}
+
+\input{teaser}
+
+\chapter*{Abstract}
+Vagueness is a key concept of language, still, it is not obvious why the vague use of language is still present in today's language understanding. Different approaches have investigated this feature, partly with the result that vagueness seems not to be optimal over crisp semantics. By assuming that speakers and listeners behave according to a pragmatic model of bounded rationality, the RSA model, I tried to examine which semantics is optimal. For this reason, each agent is defined by a certain \textit{type}. This type determines the underlying semantics and therefore the exact strategy an agent is using. Methods from evolutionary game theory are used to examine which type/semantics is optimal in a population of agents with different types. An (evolutionary) selection of certain types is the result. The model predicts that if agents behave rationally, according to RSA, a vague interpretation of a word like \textit{tall} will be more successful than a crisp semantics. For agents that do not behave rational, a crisp semantics results in higher communicative success than a vague one. Another interesting prediction is the correct ordering of antonyms like \textit{tall}, \textit{short} and their negations. The use of a vague semantics leads to the emergence of four distinct categories for these utterances. A crisp semantics does not lead to a distinction between \textit{not-short} and \textit{not-tall}. The RSA model, combined with an extension that allows to take into account different underlying semantics, seems to allow for an explanation of the prevalence of vague terms in todays language use and understanding.
+
+\chapter*{Acknowledgments}
+At first I would like to thank my advisor Dr. Michael Franke. Whenever I encountered troubles or had questions about my research or writing, he helped me out and steered me in the right direction. His honest interest and valuable comments on this work were truly supportive to me.\\
+
+Also, I must express my gratitude to my parents and to my girlfriend for providing me with support and continuous encouragement throughout my years of study and the whole process of writing this thesis. This accomplishment would not have been possible without them. Thank you.
+
+\tableofcontents
+
+% input content via other .tex files
+\input{content/introduction}
+\input{content/vagueness-pragmatics}
+\input{content/rsa-model}
+\input{content/simulation}
+\input{content/simulation-results}
+\input{content/conclusion}
+
+%\appendix
+%\chapter{Code of RSA-Model and Simulation}
+
+\bibliography{bibliography}
+
+\end{document}
+

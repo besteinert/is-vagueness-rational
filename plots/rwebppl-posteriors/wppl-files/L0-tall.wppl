@@ -1,0 +1,163 @@
+﻿//###########################################################################################
+//###### Helper-Functions, basic assumptions ,..   ##########################################
+//###########################################################################################
+
+// global parameters for the underlying world prior
+// based on which literal listener forms beliefs (after "truncating")
+var worldPriorMean  = 0;
+var worldPriorSigma = 1;
+
+// finite array of world states 
+var states = _.range(-3, 3, 0.001)
+
+// possible thresholds an agent can have
+var thresholds = _.range(0,2, 0.1)
+
+// possible uncertainties that can be combined with the thresholds above
+var sigmas = _.range(0.001,2, 0.1)
+
+// possible alpha values for speaker-rationality
+var alphas = [1, 5, 10, 50, 100]
+
+// possible utterances
+var messages = ["short", "not-short", "tall", "not-tall"]
+
+// possible states of the world (which consist only of a number). 
+// interpretation: the size of some object
+// (on a degree scale distributed normally around zero)
+// Return-value: probs for values in list 'states', using global parameters above
+var worldPrior = function() {
+  Infer({method: "enumerate"}, function() {
+  var world = uniformDraw(states);
+  var GaussPrior = Gaussian({mu:worldPriorMean, sigma: worldPriorSigma});
+  factor(GaussPrior.score(world))                          
+  return world
+  })
+}
+
+// discretized Prior of the threshold, given a certain type of semantics (mean and sigma).
+// The type yields a certain level of vagueness( ^= sigma)
+var thresholdPrior = function(type){
+  Infer({method: "enumerate"}, function() {
+  var threshold = uniformDraw(thresholds);
+  var GaussPrior = Gaussian({mu:type[0], sigma: type[1]});
+  factor(GaussPrior.score(threshold))                          
+  return threshold
+  })
+}
+
+// simple approximation to erf()- function, by Lether(1992)
+// Approx. by Lether only for positive values of x. This version is 
+// symmetric and therefore also allows for negative values.
+var erf = function(x){
+  return (x >= 0.009) ? 1-Math.exp(((-16/23) * (x*x)) - ((2/Math.sqrt(Math.PI))*x)) :
+  (x >= 0) ? ((16/23) * (x*x))+((2/Math.sqrt(Math.PI))*x) :
+  (x < 0) ? -(erf(Math.abs(x))) : NaN
+}
+
+// cumulative distribution function (cdf) of standard normal distribution
+// from wikipedia
+var cdf = function(x, mu, sigma){
+  return (x == Infinity) ? 1 : 
+  (x == -Infinity) ? 0 : 
+  0.5 *(1+erf((x-mu)/Math.sqrt(2*Math.pow(sigma, 2))))
+}
+
+// meaning function to interpret the utterances,
+// returns values in [0, 1], to be interpreted as probability of the
+// message being true, given the world state and the type.
+// symmetric.
+var meaning = function(message, world, type){
+  return message == "short" ? cdf(-world, type[0], type[1]) :
+  message == "not-short" ? cdf(world, -type[0], type[1]) :
+  message == "tall" ? cdf(world, type[0], type[1]) :
+  message == "not-tall" ? cdf(-world, -type[0], type[1]) :
+  1
+};
+
+// returns the cartesian product of two arrays
+var product = function(set1, set2) {
+    var tmp = []
+    var tmp = map(function(el1){map(function(el2){tmp.concat([el1, el2])}, set2)}, set1)
+    return tmp
+}
+
+// returns the cartesian product of three arrays
+var productFor3 = function(set1, set2, set3) {
+    var tmp = []
+    var tmp = map(function(el1){map(function(el2){map(function(el3){tmp.concat([el1, el2, el3])}, set3)}, set2)}, set1) 
+    return tmp
+}
+
+//##########################################################################################
+//######    RSA-MODEL  #####################################################################
+//##########################################################################################
+
+
+//###### literal listener P_LL #############################################################
+//P(w | m, t) = Pr(w) * log([|u|](m | w, t)) TODO: (CHECK IF TRUE LIKE THAT)
+var literalListenerDist = cache(function(message, type){
+  Infer({method: "enumerate"}, function() {
+    var world = sample(worldPrior())
+    factor(Math.log(meaning(message,world,type)))
+    return world
+  })
+})
+
+var literalListenerMF = function(message, type, world){
+  return literalListenerDist(message,type).score(world)
+}
+
+// // ####### ####### ####### ######## #######
+// // ####### testing literal listener #######
+// // ####### ####### ####### ######## #######
+
+
+
+//###### pragmatic speaker P_S ##############################################################
+// P(m | worldstate, speakertype(=tuple-of mu and sigma)) =
+//              alpha * P_LL(worldstate | message, theta) * Pr(m)
+
+// now derived from list of alphas
+//var alpha = 100 // pragmatic speaker optimality parameter
+
+var speaker = cache(function(world, type){
+  Infer({method:"enumerate"}, function(){
+    var message = uniformDraw(messages);
+    var L0 = literalListenerMF(message, type, world)             
+    factor(type[2] * L0)
+    return message;
+  })
+})
+
+// // ####### ####### ####### ##### #######
+// // ####### testing speaker model #######
+// // ####### ####### ####### ##### #######
+//var s = states[25]
+//display(s)
+//viz(speaker(s, [0.6, 0.001, 10])) 
+//viz(speaker(s, [0.6, 0.3, 10]))  
+
+//###### pragmatic listener P_L #############################################################
+// P_L(world | message, type) = Pr(w) * P_Sp(message| world, type)
+var pragmaticListener = cache(function(message, type){
+  Infer({method:"enumerate"}, function(){
+    var world = sample(worldPrior());
+    observe(speaker(world, type),message) 
+    return world;
+  })
+})
+
+
+// // ####### ####### ####### ###### #######
+// // ####### testing listener model #######
+// // ####### ####### ####### ###### #######
+var type = [1.5,0.3, 10]
+
+//viz(pragmaticListener("short", type))
+//viz(pragmaticListener("not-tall", type))
+//viz(pragmaticListener("not-short", type))
+//pragmaticListener("tall", type)
+
+literalListenerDist("tall", type)
+

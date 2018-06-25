@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}
+\contentsline {chapter}{\numberline {2}Pragmatics and vagueness}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}The field of pragmatics}{13}{section.2.1}
+\contentsline {section}{\numberline {2.2}Evolutionary Game Theory}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Vagueness in language use}{15}{section.2.3}
+\contentsline {section}{\numberline {2.4}Computer simulations for language evolution}{18}{section.2.4}
+\contentsline {chapter}{\numberline {3}RSA - Model}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Main idea of RSA and Bayes' Theorem}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Inference strategies in RSA}{20}{section.3.2}
+\contentsline {section}{\numberline {3.3}Agent types}{22}{section.3.3}
+\contentsline {section}{\numberline {3.4}Literal listener $L_0$}{22}{section.3.4}
+\contentsline {section}{\numberline {3.5}Informative Speaker $S_1$}{23}{section.3.5}
+\contentsline {section}{\numberline {3.6}Pragmatic listener $L_1$}{24}{section.3.6}
+\contentsline {chapter}{\numberline {4}Simulation}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}General assumptions and procedure}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Vague meaning in the lexicon}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}World prior}{29}{section.4.3}
+\contentsline {section}{\numberline {4.4}Goal of simulation}{30}{section.4.4}
+\contentsline {section}{\numberline {4.5}Expected Utility}{31}{section.4.5}
+\contentsline {section}{\numberline {4.6}Simulation set-up}{31}{section.4.6}
+\contentsline {chapter}{\numberline {5}Simulation Results}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}EU results}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}ESS analysis}{37}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusion}{39}{chapter.6}

@@ -1,0 +1,23 @@
+\chapter{Conclusion}
+\label{sec:conclusion}
+
+In this work, a computational cognitive model of language production/understanding is used to examine the effect of vague language use with the example of gradable adjectives, more specific with \textit{short}, \textit{tall} and their negations \textit{not-short} and \textit{not-tall}. A semantics for vague terms has been presented, where vagueness is defined as uncertainty about the threshold $\theta$ after which to use a word like \textit{tall}. Therefore, the vagueness considered here is actually vagueness in the literal meaning, that gets resolved by each agent individually, depending on their \textit{type}. Each type consists of the parameters $\mu$, $\sigma$ and $\alpha$. $\mu$ is the belief about the mean value of $\theta$, while $\sigma$ indicates the uncertainty about the exact value of $\theta$. $\alpha$ works as a "rationality" parameter, determining how close the message choice of the speaker approximates the optimal utility for the listener.\\
+
+Speaker and listener strategies in a sender-receiver game are quantified by a pragmatic model of bounded rationality, the RSA model. Rational in this sense means that the choices of messages on the speaker side and the inference of world states on the receiver side is done with respect to alternative utterances that could have been used.
+Also, the prior expectation about the "norm" of a world state like e.g. the height of people is taken into account for interpretation. The space of world states is not restricted but inflected with a probability distribution over possible world states.
+The scale in the present simulation can be interpreted as "deviation from the norm". Therefore it also allows to explain the different meaning of \textit{tall} for different comparison classes (tall girl, tall mountain, ...).\\
+
+The RSA model has been used in many applications for successfully predicting linguistic phenomena like e.g. scale implicatures, although it has been criticized to be unrealistic because it is assuming that people are more rational than they actually are. While it is true to say it is unrealistic that people perform complex mathematical probabilistic computations in their mind before choosing or interpreting a message, it still seems to be the case that human cognition is making use of probabilistic heuristics, e.g. in recursive reasoning. Another disadvantage of the RSA model is that it requires a hand-built lexicon with implemented semantic meaning. \cite{monroe2015learning} suggested an extension to the model by combining it with a machine learning approach, that "removes the need to specify a complex semantic lexicon by hand". In this work the semantics of the messages are highly important, as the key feature of "vagueness" is embedded in the literal semantic meaning. Therefore it is necessary in this case to specify the lexicon by hand, to examine the effect of language features in the literal meaning.\\
+
+The measures of communicative success of a pair of agents with different strategies/types are the expected utility score as well as the examination of evolutionary stable strategies.
+The EU results show interesting main effects of the parameters $\sigma$ and $\alpha$, as well as an interaction effect. More rational agents (with a high value for $\alpha$ in their type) perform better than irrational agents (with a low $\alpha$ value).\\
+
+One of the most interesting findings is that the $\sigma$ value that leads to the best EU results holds a significant amount of vagueness in the literal meaning. The interaction effect between $\alpha$ and $\sigma$ shows that a rational agent prefers vague interpretation of messages over crisp ones, while it is the other way round for irrational agents.
+This underlines Wright's (1976, page 154) observation that "the utility and point of the classifications expressed by many vague predicates would be frustrated if they were supplied with sharp boundaries". The best strategy (the ESS) shows specific posterior distribution patterns, i.e. a partitioning of the state space over the messages. Furthermore, the ordering of the interpretation of the categories that are inferred for the negations of gradable adjectives is the same as predicted from \cite{tesslernot}.\\
+
+Finally, it seems that the cognitive ability of pragmatic recursive reasoning enables us to infer useful interpretations of vague adjectives even beyond their literal meaning. Therefore, the results of the RSA model give a suggestion for explaining the prevalence of vague terms in natural language use for rational individuals. Vagueness indeed seems to be rational.
+
+
+
+
+
