@@ -1,3 +1,3 @@
-* Is vagueness rational?
+# Is vagueness rational?
 
 Repository to project
