@@ -1,0 +1,18 @@
+* Rational Griceans are vague ::: talk in Cologne
+** setting the scene
+*** vagueness in language
+    - Figure from thesis on crisp vs vague language
+*** signaling theory
+    - use some slides from the past
+    - signaling games
+    - sim-max games
+*** Lipman's puzzle
+    - give quote
+** evolution of semantic meaning through pragmatic use
+*** main idea of a solution
+   - old :: meaning emerges through from behavior of communicating agents
+   - new :: semantic meaning evolves to serve the needs of pragmatic agents
+*** RSA 
+***  
+* notes
+** why are EU values > 1?
